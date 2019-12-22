@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MangaFighter.Common\MangaFighter.Common.csproj" />
+      <!-- <ProjectReference Include="..\MangaFighter.DataProvider\MangaFighter.DataProvider.csproj" /> -->
+      <!-- <ProjectReference Include="..\MangaFighter.DataAccess\MangaFighter.DataAccess.csproj" /> -->
+      <ProjectReference Include="..\MangaFighter.Net\MangaFighter.Net.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0-preview3.19153.1" />
+    </ItemGroup>
+
+    <!-- <ItemGroup>
+      <None Update="InitialData\loot.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup> -->
+
+</Project>
